@@ -1,6 +1,5 @@
 Id,0,1,2,3
-Translator,Japanese: DekoKiyo,English: DekoKiyo,SChinese: ,Indonesia:
-
+Translator,Japanese: DekoKiyo,English: DekoKiyo,"SChinese: ",Indonesia:
 # Settings
 Language,言語:{0},Lang:{0},,
 AllLanguage,日本語,English,简体中文,Indonesia
@@ -19,12 +18,12 @@ FormatTimes,{0}回,{0}Times,{0}次,
 FormatPlayer,{0}人,{0}Player,{0}人,
 FormatShots,{0}発,{0}Shots,{0}次,
 FormatPercent,{0}%,{0}%,{0}%,
+FormatVotes,{0}票,{0}Votes,,
 Preset1,プリセット1,Preset1,,
 Preset2,プリセット2,Preset2,,
 Preset3,プリセット3,Preset3,,
 Preset4,プリセット4,Preset4,,
 Preset5,プリセット5,Preset5,,
-
 # End Game Screen
 CrewmateWin,クルーメイト陣営勝利,Team Crewmates Win,船员阵营获胜,
 ImpostorWin,インポスター陣営勝利,Team Impostors Win,内鬼阵营获胜,
@@ -51,14 +50,12 @@ RoleSummaryLackO2,酸素不足,LackO2,,
 RoleSummaryBomb,大爆発！,Bomb!,,
 RoleSummaryDisconnected,切断,Disconnected,,
 RoleSummaryRevival,復活,Revival,,
-
 # Mod Credits
 CreditsMain,制作:DekoKiyo,Created with DekoKiyo,模组作者：DekoKiyo,
 CreditsVersion,Version.{0},Version.{0},V.{0},
 CreditsBetaVersion,Version.Beta{0},Version.Beta{0},测试版 V.{0},
 DevName,"<align=""center"">製作者\nDekoKiyo\n</align>","<align=""center"">Developer\nDekoKiyo\n</align>","<align=""center"">制作者：\nDekoKiyo\n</align>",
 CreditsTitle,Modクレジット,Mod Credits,鸣谢,
-
 # In Game
 PlatformTitle,===プレイヤー名：機種名===,===PlayerName : Platform===,===玩家名称：游戏设备===,
 MeetingStatus,<size=100%>クルー {0} は\n<color=red>残り{1}回、全体では{2}回</color>\n緊急会議を開催できる</size>,"<size=100%>Crewmate {0} has\n<color=red>{1} times left, {2} times overall</color>\ncan hold emergency meetings.</size>",<size=100%>{0} 还能召开\n<color=red>{1}次会议 .所有人还能召开 {2} 次</color>\n紧急会议.</size>,
@@ -66,7 +63,6 @@ JesterMeetingButton,ジェスターは緊急会議を開けない…,Jester can'
 RestrictOutOfTime,時間切れ,Out Of Time,超时,
 TimeRemaining,残り時間: {0},Remaining: {0},剩余时间:{0},
 ButtonBlocked,使用不可,BLOCKED,不能使用,
-
 # Update System
 NoUpdate,アップデートがありません。\nこれが最新です。,There is no update.\nThis is latest version.,目前不需要更新。\n已更新至最新版本。,
 Updating,アップデート中…,Updating now…,正在更新中..,
@@ -75,7 +71,6 @@ UpdateInProgress,アップデートが完了しました。\nAmongUsを終了し
 UpdateButton,Modアップデート,Mod Update,模组更新,
 UpdateRestart,アップデートが完了しました。\nAmongUsを終了します。\n再度起動してください。,Update finished.\nQuit Among Us.\nPlease start again.,更新完成。\n请退出游戏，\n并再次启动。,
 UpdateFailed,アップデートに失敗しました。\n手動でやり直してください。,Unable to auto-update.\nPlease update manually.,无法自动更新。\n请尝试手动更新。,
-
 # Debug
 Position,座標:,Position:,位置：,
 ErrorNotInstalled,{0}のUltimateModsは正常に導入されていません。,{0} has a different or no version of UltimateMods,极限职业模组版本较旧,
@@ -83,7 +78,6 @@ ErrorOlderVersion,{0}のUltimateModsのバージョンがこのバージョン�
 ErrorNewerVersion,{0}のUltimateModsのバージョンがこのバージョンより新しいです。,{0} has a newer version of UltimateMods,极限职业模组为修改过的版本,
 ErrorWrongVersion,{0}のUltimateModsのバージョンがこのバージョンと違います。,{0} has a modified version of UM,房主没有极限职业模组或模组版本不同\n您将在{0}秒后被踢出,
 ErrorHostNoVersion,<color=#00a2ff>ホストがUltimateModsを導入していないかバージョンが違います。\nバグ防止のため、あなたはあと{0}秒でキックされます。</color>,<color=#00a2ff>The host has no or a different version of UltimateMods\nYou will be kicked in {0}s</color>,,
-
 # Client Options
 GhostsSeeTasksButton,幽霊時全員の\nタスク残量が見える,Ghosts See\nRemaining Tasks,幽灵可见他人任务进度,
 GhostsSeeVotesButton,幽霊時全員の\n役職が見える,Ghosts See Roles,幽灵可见他人职业,
@@ -91,7 +85,6 @@ GhostsSeeRolesButton,幽霊時全員の\n投票先が見える,Ghosts See Votes,
 HideNameplates,ネームプレートを\n非表示にする,Hide Nameplates,隐藏名牌,
 EnableCustomSounds,カスタムサウンドを\n使用する,Enable\nCustom Sounds,,
 ShowRoleSummaryButton,最終結果を\n表示する,Show \nRole Summary,,
-
 # Roles Name
 Impostor,インポスター,Impostor,内鬼,
 Crewmate,クルーメイト,Crewmate,船员,
@@ -105,9 +98,10 @@ Madmate,マッドメイト,Madmate,,
 Bakery,パン屋,Bakery,,
 Teleporter,テレポーター,Teleporter,,
 Altruist,アルトルイスト,Altruist,,
+EvilHacker,イビルハッカー,Evil Hacker,,
+Adversity,逆境,Adversity,,
 Opportunist,オポチュニスト,Opportunist,投机者,
 OpportunistPostfix,OP,OP,,
-
 # Roles Descripton
 ImpostorIntro,サボタージュを行い全員を殺そう,Sabotage and Kill Everyone,破坏飞船并杀死所有人,
 ImpostorShort,サボタージュを行い全員を殺そう,Sabotage and Kill Everyone,破坏飞船并杀死所有人,
@@ -142,7 +136,12 @@ TeleporterFull,ランダムなプレイヤーにテレポートできる。,You 
 AltruistIntro,自らを犠牲にして、クルーを復活させよう,Sacrifice yourself to revive your crew.,,
 AltruistShort,クルーを復活させよう。,Revive Crewmates.,,
 AltruistFull,自らを犠牲にしてクルーを復活させる。,Sacrifice yourself to revive your crew.,,
-
+EvilHackerIntro,行動を監視しよう,Let's monitor their behavior.,,
+EvilHackerShort,皆はどこ？,Where is everyone?,,
+EvilHackerFull,いつでもどこでもアドミンを使うことができる。,"Admin can be used anytime, anywhere.",,
+AdversityIntro,逆境を力に。,Adversity to Power.,,
+AdversityShort,逆境を力に。,Adversity to Power.,,
+AdversityFull,インポスターが一人の場合、キルクールダウンが減少する。\nまた、設定でインポスターが一人の場合は\n最初から逆境状態になる。,"If there is only one imposter, the kill cooldown is reduced.\n Also, if there is only one imposter in the setting, the imposter will be in adversity from the beginning.",,
 # Custom Options
 ChangePage,< >でページを変更,"Press < > for Change Pages,",按 < > 以便查看其他内容,
 ActivateRoles,Mod役職有効化,Activate Mod Roles,启用模组职业,
@@ -181,7 +180,6 @@ OldAirShipAdmin,旧AirShipアドミン仕様,Old AirShip Admin System,使用旧�
 EnableRecordsAdmin,アーカイブのアドミン有効化,Enable Archive Admin,启用位于档案室的地图,
 EnableCockpitAdmin,コックピットのアドミン有効化,Enable Cockpit Admin,启用位于驾驶舱的地图,
 AirShipReactorDuration,AirShip昇降機制限時間,AirShip Reactor Duration,飞艇地图调整航线破坏限制时间,
-
 # Custom Roles Options
 RoleNumAssigned,人数,Role Counts,可存在数量,
 MaxShots,撃てる最大数,Max Shots,最多击杀次数,
@@ -223,14 +221,17 @@ TeleporterTeleportTo,テレポート先候補,Teleport Candidate,,
 TeleporterAllRandom,全員,All Player,,
 OnlyCrewmate,クルーメイトだけ,Only Crewmate,,
 AltruistDuration,復活までの時間,Revive Duration,,
-
+EvilHackerCanMoveEvenIfUsesAdmin,アドミンを使いながら動ける,Can Move Even If Uses Admin,,
+EvilHackerCanHasBetterAdmin,改良アドミンを使うことができる,Can Has Better Admin,,
+AdversityStateKillCooldown,逆境状態の時のキルクールダウン,Adversity State Kill Cooldown,,
+AdversityStateCanFindMadmate,逆境状態の時にマッドメイトを探せる,Adversity State Can Find Madmate,,
+AdversityStateCanSeeVotes,逆境状態の時に投票をした人が見える,Adversity State Can See Votes,,
 # Mod Roles Text
 ReamingShots,残り {0}発,Shots: {0},剩余次数：{0},
 ReamingCount,残り {0}回,Reaming: {0},剩余回数：{0},
 MakeBreadText,パン屋さんのパンが焼きあがりました。,The bread in the bakery has been baked.,,
 BombBakeryText,パン屋どっかーーーーーん！,Bakery big Explosion!,,
 TeleporterTeleported,テレポート発生！,Teleported!,,
-
 # Roles Button Text
 EngineerRepairButtonText,直す,Repair,维修,
 UnderTakerDropText,置く,Drop,放下,
