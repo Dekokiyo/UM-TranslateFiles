@@ -4,7 +4,7 @@ Below is a list of translation keys.
 
 ## How to make Translation File?
 1. Create a [fork](https://github.com/Dekokiyo/UM-TranslateFiles/fork).
-2. Write translate data in your "StringData.csv" file.
+2. Write translate data in your "Localization.xlsx" file.
 3. Make a [pull request](https://github.com/Dekokiyo/UM-TranslateFiles/compare) yourself.
 4. I'll check and if no problem, I apply your file.
 
